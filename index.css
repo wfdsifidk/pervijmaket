@@ -1,0 +1,275 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: 'Heebo', sans-serif;
+  color: #21243D;
+
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 27px;
+  padding-right: 60px;
+}
+
+.nav-contacts {
+  padding-right: 129px;
+  width: 57px;
+  height: 43px;
+  line-height: 29px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-works {
+  padding-right: 93px;
+  width: 49px;
+  height: 43px;
+  line-height: 29px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-blog {
+  padding-right: 60px;
+  width: 49px;
+  height: 43px;
+  line-height: 29px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  padding-top: 210px;
+  padding-left: 150px;
+  padding-right: 150px;
+  width: 100%;
+}
+
+.image {
+  padding-left: 350px;
+  padding-right: 150px;
+  display: block;
+  justify-content: right;
+  align-items: right;
+  width: 243px;
+}
+
+.header-title {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 60px;
+  width: 532px;
+  height: 120px;
+}
+
+.header-text {
+  padding-top: 30px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 497px;
+  height: 66px;
+}
+
+.header-button {
+  margin-top: 70px;
+  background-color: #ff6464;
+  width: 208px;
+  height: 47px;
+  border: none;
+}
+
+.header-button-text {
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+
+.section{
+    background-color: #EDF7FA;
+    margin-top: 80px;
+    height: 450px;
+}
+.section-header{
+    padding-left: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+.section-header-par{
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 22px;
+}
+.mainsection{
+    display: flex;
+    padding-left: 150px;
+}
+.mainsection-first {
+    background-color: white;
+    width: 450px;
+    height:270px;
+    margin-right:50px;
+    padding:20px;
+}
+.mainsection-first-title{
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 38px;
+}
+.mainsection-first-date{
+ 
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+margin-right: 5px;
+}
+.mainsection-first-tag{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+}
+.mainsection-first-text{
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+}
+.divfortagdate{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main{
+    padding-left: 150px;
+}
+
+.main-title{
+    padding:20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+.main-dashboard{
+    display: flex;
+    padding-bottom: 46px;
+
+    
+
+}
+.main-dashboard-title{
+    padding-left: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    margin-top: -10px;
+}
+.main-dashboard-date{
+    padding-left: 11px;
+    color:white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+}
+.divfordate{
+    margin-left: 18px;
+    background-color:#142850;
+    border-radius: 16px;
+    width: 62px;
+    height: 25px;
+    margin-right: 26px;
+}
+.divforflex{
+    display: flex;
+    margin-top: 17px;
+}
+.main-dashboard-tag{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+
+}
+.main-dashboard-text{
+    margin-top: 17px;
+    margin-left:18px ;
+    width: 594px;
+    height: 93px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+
+}
+.seperator{
+    border: 1px solid #E0E0E0;
+    margin-bottom: 60px;
+    width: 858px;
+
+  }
+
+.footer{
+    padding-top: 87px;
+    margin: 10px;
+
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+padding-right: 30px;
+}
+.textend{
+    padding-top: 20px;
+    padding-bottom: 50px;
+padding-left: 570px;
+}

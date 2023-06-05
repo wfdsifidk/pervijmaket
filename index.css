@@ -43,7 +43,7 @@ body {
 }
 
 .nav-contacts {
-  padding-right: 129px;
+  padding-right: 110px;
   width: 57px;
   height: 43px;
   line-height: 29px;
@@ -51,6 +51,16 @@ body {
   font-weight: 500;
   text-decoration: none;
   color: #000;
+}
+.nav-home {
+  padding-right: 93px;
+  width: 57px;
+  height: 43px;
+  line-height: 29px;
+  font-size: 20px;
+  font-weight: 500;
+  text-decoration: none;
+  color: orange;
 }
 
 .nav-works {
@@ -65,7 +75,7 @@ body {
 }
 
 .nav-blog {
-  padding-right: 60px;
+  padding-right: 70px;
   width: 49px;
   height: 43px;
   line-height: 29px;
@@ -249,6 +259,7 @@ line-height: 24px;
     
 
 }
+
 .seperator{
     border: 1px solid #E0E0E0;
     margin-bottom: 60px;

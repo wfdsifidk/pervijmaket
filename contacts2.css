@@ -48,11 +48,30 @@ html {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    color: #000;
+    color: orange;
+  }
+  .contactus{
+    padding-left: 235px;
+    padding-bottom: 60px;
+    color: #21243D;
+    font-size: 50px;
   }
   
   .nav-works {
     padding-right: 93px;
+    width: 49px;
+    height: 43px;
+    line-height: 29px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color:black;
+  
+
+  }
+  
+  .nav-blog {
+    padding-right: 70px;
     width: 49px;
     height: 43px;
     line-height: 29px;
@@ -71,77 +90,49 @@ html {
     text-decoration: none;
     color: #000;
   }
-  
-  .nav-blog {
-    padding-right: 70px;
-    width: 49px;
-    height: 43px;
-    line-height: 29px;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    color: orange;
-  }
-  .main-header{
-    padding-left: 230px;
-    padding-top: 160px;
-    width: 156px;
-    height: 54px;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-  }
-  .section1{
-    padding-top: 160px;
+  .type-info{
     padding-left: 235px;
-  }
-  .section{
-    padding-left: 235px;
-  
-  }
-  .section-title{
-    
-    font-weight: 500;
+    width: 600px;
     font-size: 30px;
-    line-height: 44px;
-  }
-  .datetag-div{
-    padding-top: 16px;
-  }
-  .section-first-date{
-        width: 374px;
-    height: 25px;
+    font-weight: 700;
 
-        font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
+    
   }
-  .section-first-tag{
-    font-weight: 400;
-font-size: 20px;
-line-height: 29px;
-color: #8695A4;
-  }
-  .section-text{
-    padding-top: 18px;
-    font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-width: 858px;
-height: 43px;
+  .input{
+    width: 400px;
+    padding: 10px;
+    border: 3px solid #000;
+        border-radius: 5px;
+      
+
+}
+.input-text{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+    border: 3px solid #000;
+    border-radius: 5px;
 
 
-  }
-  
-  .seperator{
-    border: 1px solid #E0E0E0;
+}
+button{
+    width: 150px;
+    height: 40px;
+    background-color: #21243D;
+    color: white;
+    border-radius: 6px;
     margin-left: 235px;
-    width: 858px;
-    margin-top:50px ;
-    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.button-title{
+    font-size: 25px;
 
-  }
+
+}
+
+
   .footer{
+
     padding-top: 87px;
     margin: 10px;
 
@@ -158,6 +149,3 @@ padding-right: 30px;
     padding-bottom: 50px;
 padding-left: 570px;
 }
-
-
-

@@ -40,6 +40,16 @@ html {
     padding-top: 27px;
     padding-right: 60px;
   }
+  .nav-home {
+    padding-right:93px;
+    width: 57px;
+    height: 43px;
+    line-height: 29px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+  }
   .nav-contacts {
     padding-right: 110px;
     width: 57px;
@@ -59,17 +69,8 @@ html {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    color: #000;
-  }
-  .nav-home {
-    padding-right: 93px;
-    width: 57px;
-    height: 43px;
-    line-height: 29px;
-    font-size: 20px;
-    font-weight: 500;
-    text-decoration: none;
-    color: #000;
+    color: orange;
+
   }
   
   .nav-blog {
@@ -80,7 +81,11 @@ html {
     font-size: 20px;
     font-weight: 500;
     text-decoration: none;
-    color: orange;
+    color: #000;
+  }
+  main{
+    padding-left: 235px;
+    padding-top: 160px;
   }
   .main-header{
     padding-left: 230px;
@@ -91,57 +96,71 @@ html {
     font-size: 40px;
     line-height: 60px;
   }
-  .section1{
-    padding-top: 160px;
-    padding-left: 235px;
-  }
-  .section{
-    padding-left: 235px;
-  
-  }
-  .section-title{
+  .main-dashboard{
+    display: flex;
+    padding-bottom: 46px;
+
     
-    font-weight: 500;
+
+}
+.main-dashboard-title{
+    padding-left: 18px;
+    font-style: normal;
+    font-weight: 700;
     font-size: 30px;
     line-height: 44px;
-  }
-  .datetag-div{
-    padding-top: 16px;
-  }
-  .section-first-date{
-        width: 374px;
+    margin-top: -10px;
+}
+.main-dashboard-date{
+    padding-left: 11px;
+    color:white;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+}
+.divfordate{
+    margin-left: 18px;
+    background-color:#142850;
+    border-radius: 16px;
+    width: 62px;
     height: 25px;
-
-        font-weight: 400;
+    margin-right: 26px;
+}
+.divforflex{
+    display: flex;
+    margin-top: 17px;
+}
+.main-dashboard-tag{
+    font-style: normal;
+    font-weight: 400;
     font-size: 20px;
     line-height: 29px;
-  }
-  .section-first-tag{
-    font-weight: 400;
-font-size: 20px;
-line-height: 29px;
-color: #8695A4;
-  }
-  .section-text{
-    padding-top: 18px;
-    font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-width: 858px;
-height: 43px;
+    color: #8695A4;
 
+}
+.main-dashboard-text{
+    margin-top: 17px;
+    margin-left:18px ;
+    width: 594px;
+    height: 93px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
 
-  }
-  
-  .seperator{
+}
+.seperator{
     border: 1px solid #E0E0E0;
-    margin-left: 235px;
+    margin-bottom: 60px;
     width: 858px;
-    margin-top:50px ;
-    margin-bottom: 30px;
 
   }
-  .footer{
+
+
+
+.footer{
+
     padding-top: 87px;
     margin: 10px;
 
@@ -158,6 +177,3 @@ padding-right: 30px;
     padding-bottom: 50px;
 padding-left: 570px;
 }
-
-
-

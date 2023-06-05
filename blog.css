@@ -1,0 +1,152 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  body {
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+  
+  }
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 27px;
+    padding-right: 60px;
+  }
+  .nav-contacts {
+    padding-right: 129px;
+    width: 57px;
+    height: 43px;
+    line-height: 29px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-works {
+    padding-right: 93px;
+    width: 49px;
+    height: 43px;
+    line-height: 29px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-blog {
+    padding-right: 60px;
+    width: 49px;
+    height: 43px;
+    line-height: 29px;
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    color: orange;
+  }
+  .main-header{
+    padding-left: 230px;
+    padding-top: 160px;
+    width: 156px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .section1{
+    padding-top: 160px;
+    padding-left: 235px;
+  }
+  .section{
+    padding-left: 235px;
+  
+  }
+  .section-title{
+    
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+  }
+  .datetag-div{
+    padding-top: 16px;
+  }
+  .section-first-date{
+        width: 374px;
+    height: 25px;
+
+        font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .section-first-tag{
+    font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #8695A4;
+  }
+  .section-text{
+    padding-top: 18px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 858px;
+height: 43px;
+
+
+  }
+  .seperator{
+    border: 1px solid #E0E0E0;
+    margin-left: 235px;
+    width: 858px;
+    margin-top:50px ;
+    margin-bottom: 30px;
+
+  }
+  .footer{
+    padding-top: 87px;
+    margin: 10px;
+
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+padding-right: 30px;
+}
+.textend{
+    padding-top: 20px;
+    padding-bottom: 50px;
+padding-left: 570px;
+}
+
+
+
